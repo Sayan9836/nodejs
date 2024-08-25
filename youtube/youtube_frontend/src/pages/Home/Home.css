@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+.home_wrapper {
+}
+
+.main {
+  display: flex;
+}
+
+.side_bar {
+  width: 20vw;
+}
+
+.videos_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  border: 1px solid rgb(39, 38, 38);
+}

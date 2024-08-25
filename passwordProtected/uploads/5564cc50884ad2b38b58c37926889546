@@ -1,0 +1,65 @@
+   BACKGROUND PROPERTIES
+   
+  background-image: url(star.png);
+  background-repeat: no-repeat;
+  background-position: 20px top;
+
+  background-image: url(firefox.png), url(bubbles.png), linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, left, right;
+
+  Overflowing content
+  * word-break-                overflow-wrap: break-word;
+    
+ word-break: normal;
+ word-break: break-all;
+ word-break: keep-all;
+ word-break: break-word; // very useful    
+
+ CSS UNITS ::
+  1rem=10px -->multiply of root element
+  1em=16px  -->multiply of parent element(font size)||same elememt(margin)
+ width: %,vw,ch 
+ NOTE:--Avoid setting height to an element set minHeight:%,vh,rem
+ vw-absoulute width
+ %-relative width 
+ font-size:always set with em-multiply of parent font size or current element font-size
+ 
+width: clamp(200px, 40%,  400px);
+width: clamp(20rem, 30vw, 70rem);
+width: clamp(10vw,  20em, 100vw);
+
+minmax(200px, 1fr) // keep the size of the item within a range
+minmax(30%, 300px)
+minmax(400px, 50%)
+
+FLEXBOX:
+
+Main Axis Alignment
+ -->justify-content
+Cross Axis Alignment
+-->align-self
+-->align-items
+-->align-content
+-->place-content
+***allows you to align content(Box(Grp of element)) along both the block and inline directions at once
+-->place-self: start end;(indivitual element)
+-->place-items:--(multiple indivitual element)
+
+CSS POSITIONING
+-->(top,right,bottom,left)
+--> for child to be absoulute parent should be relative
+
+ resize:---
+resize: none;
+resize: both;
+resize: horizontal;
+resize: vertical;
+resize: block;
+resize: inline;
+
+rotate:--
+rotate: none;
+rotate: 90deg;
+rotate: 0.25turn;
+rotate: 1.57rad;
